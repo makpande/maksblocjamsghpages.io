@@ -30,6 +30,9 @@ body.collection {
  .collection-album-container .caption p a {
      color: rgba(255, 255, 255, 0.6);
  }
+.collection-album-container a:active {
+    rgb(233,50,117);
+}
  
  .collection-album-container .caption p a.album-name {
      color: white;
