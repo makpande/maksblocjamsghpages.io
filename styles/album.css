@@ -34,3 +34,15 @@ body.album {
     font-weight: 300;
     font-size: 0.75rem;
 }
+
+.song-item-number {
+    width: 5%;
+}
+.song-item-title {
+    width: 20%;
+    padding: 1rem;
+}
+
+.song-item-times {
+    width: 10%;
+}
