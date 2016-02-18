@@ -35,25 +35,31 @@ body.album {
     font-size: 0.75rem;
 }
 
-.album-view-song-list {
-    border: 1px solid purple;
-}
+
 .song-item-number {
     width: 5%;
     padding: 0.5rem
 }
 .song-item-title {
-    width: 25%;
+    width: 85%;
     padding: 1rem;
     text-align: center;
 }
 
 .song-item-times {
-    width: 20%;
-    text-align: center;
+    width: 5%;
 }
 
 .song-item-duration {
-    width: 10%;
+    width: 5%;
     text-align: center;
+    margin: 1.5rem auto;
+    font-weight: 300;
+    font-size: 0.75em;
 }
+
+.album-view-song-item {
+    height: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
