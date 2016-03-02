@@ -61,5 +61,17 @@ var setCurrentAlbum = function(album) {
 };
 
 window.onload = function() {
-    setCurrentAlbum(albumPicasso);
+    setCurrentAlbum(albumMarconi);            
+    
+    var albums = [albumMarconi, albumPicasso];
+    var index = 1;
+    
+    albumImage.addEventListener('click', function() {
+        setCurrentAlbum(albums[index]); 
+        index++;
+        if (index == albums.length){
+            index = 0;
+        }
+    });
+    
 };
