@@ -42,7 +42,9 @@ body.album {
 
 .song-item-number {
     width: 5%;
-    padding: 0.5rem
+    padding: 0.5rem;
+    min-width: 30px;
+
 }
 .song-item-title {
     width: 55%;
@@ -61,4 +63,25 @@ body.album {
     height: 3rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+.album-song-button {
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(210, 40, 123);
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+}
+ 
+ .album-song-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(210, 40, 123);
+ }
+ 
+ .album-song-button span {
+    line-height: 28px;
+ }
 
