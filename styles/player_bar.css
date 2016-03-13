@@ -3,7 +3,7 @@
      bottom: 0;
      left: 0;
      right: 0;
-     height: 200px;
+     height: 150px;
      background-color: rgba(255, 255, 255, 0.3);
      z-index: 100;
  }
@@ -182,4 +182,8 @@
      .player-bar .currently-playing .artist-song-mobile {
          display: block;
      }
+
+ .player-bar .volume {
+     width: 25%;
+     text-align: right;
  }
